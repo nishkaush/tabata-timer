@@ -1,0 +1,63 @@
+#outermost {
+    background-color: lavender;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    height: 500px;
+}
+
+#textarea {
+    background-color: ivory;
+    width: 400px;
+    height: 120px;
+    border: none;
+    font-size: 60px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+#stop {
+    display: none;
+    margin-left: 250px;
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: lime;
+    padding: 5px;
+    background-color: red;
+}
+
+#sets, #timeon, #timeoff {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+#fixbuttons {
+    display: block;
+    margin-top: 20px;
+}
+
+#start {
+    display: inline;
+    margin-left: 270px;
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: lime;
+    padding: 5px;
+}
+
+#reset {
+    display: inline;
+    margin-right: 200px;
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.redtext {
+    color: red;
+}

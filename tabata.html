@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tabata-timer</title>
+    <link href="tabata.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="outermost">
+
+        <form id="form">
+            <input type="text" id="sets" placeholder="Number of sets">
+            <input type="text" id="timeon" placeholder="Time ON (secs)">
+            <input type="text" id="timeoff" placeholder="Time OFF (secs)">
+
+            <div id="fixbuttons">
+                <button type="button" id="stop">STOP</button>
+                <button type="button" id="start">START</button>
+                <button type="reset" id="reset">RESET</button>
+            </div>
+
+            <textarea id="textarea" placeholder="00:00"></textarea>
+
+        </form>
+    </div>
+    <script src="tabata.js" type="text/javascript"></script>
+
+</body>
+
+</html>
