@@ -27,3 +27,9 @@ Main Challenges and learning points:
 
 
 (7) with every project, I am more and more convinced that a lot of debugging comes down to scope and closure. I am quite confident now with the rules of javascript compiling and traversing methods, so usually I am able to find my own mistakes and bugs.
+
+
+(8) Also remember to define the value that is to be used in a function before the function. Otherwise javascript won't read its value even if its on the line right after the function. Code is read from top to bottom so make sure you follow the sequence. 
+
+
+(9) In case of functions that are repeated, javascript remembers the last value that was assigned to a variable or timer. So be sure to erase it or mould the code accordingly. So if a variable exists in the scope of a nested function only, when javascript gets to it the second time around, it will remember the last value that the variable had. In case of global variables, it is clearly evident.
